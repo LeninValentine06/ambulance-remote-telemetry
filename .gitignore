@@ -1,0 +1,52 @@
+# ==========================================
+# STM32CubeIDE / Eclipse Build Artifacts
+# ==========================================
+
+# Ignore build output directories
+Debug/
+Release/
+build/
+bin/
+
+# Ignore compiled objects, dependencies, and static library files
+*.o
+*.d
+*.su
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Ignore STM32CubeIDE project local settings and workspace history
+.settings/
+.launches/
+*.local
+
+# ==========================================
+# Operating System & Editor Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE-specific configurations (excluding STM32CubeIDE core files)
+.vscode/
+.idea/
+*.swp
+*~
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+*.log
+logs/
+temp/
+tmp/
